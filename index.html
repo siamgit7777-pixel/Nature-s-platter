@@ -21,17 +21,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
 
+<style>
+    .sora-font {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+
+
 
 </head>
 <body>
     <div>
-        <div class="lg:px-5">
+        <div class="lg:px-10 sora-font bg-gradient-to-b from-white to-[#eef7ec]">
 
 
 
             <!-- Nav Bar -->
             <nav>
-                <div class="navbar ">
+                <div class="navbar pt-3">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -67,10 +77,19 @@
 </div>
             </nav>
 
-
-
-
+            <!-- Banner Section -->
+            <div class="text-center lg:pt-20 flex flex-col items-center">
+                <h1 class="text-3xl font-bold">
+                    Freshness <span class="text-[#179800]">You Can</span> <br>
+                    <span class="text-[#179800]">Count On</span>, Prices You’ll Love!
+                </h1>
+                <p class="lg:pt-5">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                <img class="w-[600px] place-content-end" src="./c2-assets/hero-vegetables.png" alt="">
+            </div>
         </div>
+
+
+        
     </div>
 </body>
 </html>
